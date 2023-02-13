@@ -1,0 +1,58 @@
+body {
+    background-color: azure;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+button {
+    background-color: transparent;
+    border: 2px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1em;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 0 auto;
+}
+
+#buttons-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+img {
+    width: 60px;
+}
+
+#scoreboard {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.3em;
+}
+
+#gameover-info {
+    font-size: 1.5em;
+}
+
+.choice-marker {
+    background-color: lightgreen;
+}
+
+.random-marker {
+    background-color: firebrick;
+}
+
+#highscore {
+    border: 2px solid goldenrod;
+    width: 40%;
+    margin: 0 auto;
+}

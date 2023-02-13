@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+    <title>Sten, sax, påse</title>
+</head>
+
+<body>
+    <h1>Sten, sax, påse</h1>
+    <div id="first-intro">
+        <p>Hej! Du har blivit utvald att rädda universum från Ondskan genom att spela sten, sax, påse. Berätta först vad du heter!</p>
+        <form>
+            <input type="text" id="name-input">
+            <button id="name-button">Besegra Ondskan</button>
+        </form>
+    </div>
+
+    <div id="game-container">
+        <p id="new-intro"></p>
+
+        <div id="buttons-container">
+            <div id="player-buttons">
+                <img id="0" class="button" src="images/1FAA8_color.png">
+                <img id="1" class="button" src="images/2702_color.png">
+                <img id="2" class="button" src="images/1F6CD_color.png">
+            </div>
+
+            <div>
+                <img class="button computer-button" src="images/1FAA8_color.png">
+                <img class="button computer-button" src="images/2702_color.png">
+                <img class="button computer-button" src="images/1F6CD_color.png">
+            </div>
+        </div>
+
+        <div id="scoreboard">
+            <p id="player-score">Dina poäng: 0</p>
+            <p id="computer-score">Ondskans poäng: 0/1</p>
+        </div>
+
+        <div id="highscore"></div>
+        
+        <div id="gameover-info">
+            <p id="gameover-text"></p>
+            <button id="restart">Spela igen!</button>
+        </div>
+    </div>
+</body>
+
+</html>
